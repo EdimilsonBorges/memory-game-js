@@ -1,6 +1,8 @@
 const emojis = ["🐍", "🐍","🦝", "🦝","🦅", "🦅","🐶", "🐶", "🐵", "🐵", "🦁", "🦁","🐞", "🐞", "🦈", "🦈"];
 let openCards = [];
 const reset = document.querySelector(".reset");
+const dialog = document.querySelector(".container__dialog");
+
 reset.addEventListener("click", ()=>{
   window.location.reload();
 });
@@ -32,6 +34,11 @@ function handleClick() {
   }
 }
 
+const btnCloseDialog = document.getElementById("close");
+btnCloseDialog.addEventListener("click", () => {
+  dialog.classList.add("hidden");
+});
+
 function checkMatch() {
   if (openCards[0].innerHTML === openCards[1].innerHTML) {
     openCards[0].classList.add("boxMatch");
@@ -45,6 +52,6 @@ function checkMatch() {
   openCards = [];
 
   if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-    alert("Você venceu !");
+    dialog.classList.remove("hidden");
   }
 }
