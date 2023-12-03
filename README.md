@@ -25,15 +25,5 @@ Quanto menos movimentos você fizer, melhor será sua pontuação.
 Design responsivo para uma experiência de jogo perfeita em dispositivos desktop.  
 Animações suaves para tornar o jogo mais atraente.  
 Ícones alegres e coloridos para tornar as cartas memoráveis.  
-## 🤝 Como Contribuir
-Se você quiser contribuir para melhorar o Memory Game JS, siga estas etapas:
-
-Faça um fork do repositório.  Crie uma branch para suas modificações: `git checkout -b sua-feature`.  
-Faça suas alterações e faça commit: `git commit -m 'Adiciona nova feature'`.  
-Envie para o seu fork: `git push origin sua-feature`.  
-Abra um pull request.  
-
-Ficaremos felizes em revisar e mesclar contribuições!
-
 ## ✒️ Autor
 * **Desenvolvedor Full stack** - [Edimilson Borges](https://github.com/EdimilsonBorges)
