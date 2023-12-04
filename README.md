@@ -30,7 +30,7 @@ Quanto menos movimentos você fizer, melhor será sua pontuação.
 - [CSS 3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Linguagem de estilização
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) -  Linguagem de programação 
 ## ⛏️ Recursos
-Design responsivo para uma experiência de jogo perfeita em dispositivos desktop.  
+Design responsivo para uma experiência de jogo perfeita em dispositivos desktop e mobile.  
 Animações suaves para tornar o jogo mais atraente.  
 Ícones alegres e coloridos para tornar as cartas memoráveis.  
 ## ✒️ Autor
